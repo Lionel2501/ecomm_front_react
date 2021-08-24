@@ -7,6 +7,31 @@
   pointer-events: none;
 }
 
+.navBar a{
+  padding: 2px 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.navBar a:hover{
+  color: beige;
+}
+
+.delete{
+  background-color: rgb(207, 49, 49);
+  color: #fff;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.update{
+  background-color: gainsboro;
+  color: black;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
